@@ -1,5 +1,5 @@
 {
-  "name": "release-test-joschka",
+  "name": "npm-package-example-joschka",
   "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/joschka/release-test.git"
+    "url": "git+ssh://git@github.com/joschka/npm-package-example.git"
   },
   "keywords": [],
   "author": "",
@@ -17,10 +17,7 @@
   "publishConfig": {
     "provenance": true
   },
-  "bugs": {
-    "url": "https://github.com/joschka/release-test/issues"
-  },
-  "homepage": "https://github.com/joschka/release-test#readme",
+  "homepage": "https://github.com/joschka/npm-package-example#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
