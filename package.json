@@ -15,7 +15,23 @@
   "author": "",
   "license": "MIT",
   "publishConfig": {
+    "access": "public",
     "provenance": true
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next",
+      "next-major",
+      {
+        "name": "alpha",
+        "prerelease": true
+      },
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ]
   },
   "homepage": "https://github.com/joschka/npm-package-example#readme",
   "devDependencies": {
