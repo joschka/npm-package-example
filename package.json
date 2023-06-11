@@ -1,0 +1,30 @@
+{
+  "name": "release-test-joschka",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp src/index.js package.json dist",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joschka/release-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "provenance": true
+  },
+  "bugs": {
+    "url": "https://github.com/joschka/release-test/issues"
+  },
+  "homepage": "https://github.com/joschka/release-test#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "lefthook": "^1.4.1",
+    "semantic-release": "^21.0.2"
+  }
+}
